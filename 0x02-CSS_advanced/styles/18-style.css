@@ -400,13 +400,12 @@ body{
 .navbar-menu{
     float: right;
 }
-.nav{
+nav{
     margin: 0;
     padding: 0;
-    list-style: none;
     text-align: center;
 }
-.nav.nav-item{
+nav .nav-item{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -414,11 +413,11 @@ body{
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav.nav-link{
+nav .nav-link{
     display: block;
     padding: calc(1rem / 2) 1rem;
 }
-.nav.nav-link:hover{
+nav .nav-link:hover{
     background-color: var(--nav-item-link-hover);
 }
 h1, h2, h3, h4, h5, h6{
