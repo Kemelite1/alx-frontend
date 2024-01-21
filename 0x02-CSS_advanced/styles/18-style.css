@@ -416,7 +416,7 @@ body{
 }
 .nav.nav-link{
     display: block;
-    padding: calc(1rem / 2) 1rem;
+    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 .nav.nav-link:hover{
     background-color: var(--nav-item-link-hover);
