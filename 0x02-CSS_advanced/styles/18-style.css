@@ -405,7 +405,7 @@ nav{
     padding: 0;
     text-align: center;
 }
-nav .nav-item{
+.nav-item{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -413,11 +413,11 @@ nav .nav-item{
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-nav .nav-link{
+.nav-link{
     display: block;
     padding: calc(1rem / 2) 1rem;
 }
-nav .nav-link:hover{
+.nav-link:hover{
     background-color: var(--nav-item-link-hover);
 }
 h1, h2, h3, h4, h5, h6{
