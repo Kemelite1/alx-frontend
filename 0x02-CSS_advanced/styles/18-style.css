@@ -387,7 +387,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(var(--root-element) * 3) 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 }
 body{
@@ -416,7 +416,7 @@ body{
 }
 .nav-item .nav-link{
     display: block;
-    padding: calc(var(--root-element) / 2) 0;
+    padding: calc(1rem / 2) 1rem;
 }
 .nav-link:hover{
     background-color: var(--nav-item-link-hover);
