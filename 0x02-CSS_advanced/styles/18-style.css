@@ -418,7 +418,7 @@ body{
     display: block;
     padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
-.nav-link:hover{
+.nav-item .nav-link:hover{
     background-color: var(--nav-item-link-hover);
 }
 h1, h2, h3, h4, h5, h6{
