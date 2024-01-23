@@ -347,6 +347,13 @@
   [hidden] {
     display: none;
   }
+  * {
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
@@ -372,12 +379,6 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
-*{
-  box-sizing: border-box;
-}
-html {
-  font-size: var(--html-font-size);
-} 
 body{
     color: var(--color-black);
     font-family: var(--font-family-base);
