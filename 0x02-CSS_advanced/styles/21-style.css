@@ -471,17 +471,13 @@ ul.row{
   float: left;
   padding: var(--font-size-medium);
 }
-
-.col-1-3 {
+.col-1-3{
   width: 33.33%;
-  padding: var(--font-size-medium); 
 }
-
-.col-1-2 {
+.col-1-2{
   width: 50%;
-  padding: var(--font-size-medium); 
-}
 
+}
 .section-footer{
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
