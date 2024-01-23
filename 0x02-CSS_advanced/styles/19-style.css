@@ -457,7 +457,7 @@ a:active{
 .section-body{
   padding: var(--section-body-padding);
 }
-ul.row{
+.section-body ul.row{
   margin: 0;
   padding: 0;
   list-style: none;
