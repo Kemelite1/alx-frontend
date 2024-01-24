@@ -545,12 +545,12 @@ ul.row{
 }
 .card-testimonial .card-avatar{
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 10rem;
+  height: 10rem;
 }
 .card-testimonial .card-quote cite{
   display: block;
-  padding-top: var(--font-size-medium);
+  padding-top: 1rem;
   color: var(--color-primary); 
 }
 .footer{
